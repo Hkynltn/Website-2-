@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;  
+    
+}
+.achtergrond{
+  margin: 0px;
+    padding: 0px;   
+}
+header{
+    width: 100vw;
+    height: 120px;
+    background-color:  grey;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+
+header nav {
+    width: 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -100px;
+    position: relative;
+    left: -50px;
+    color: #360568;
+}
+
+nav button {
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    border-width: 0;
+    border-style: none;
+    
+
+}
+
+.header{
+    justify-content: row;
+
+}
+
+
+  p{
+  
+   font-size: 50px;
+   color: black;
+   margin-left: 460px;
+   margin-top: 260px;
+   
+   
+  
+   
+  }
+
+
+
+  .row{
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    background-color:  grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 300px;
+    justify-content: space-evenly
+    
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: -150px;
+  
+  }
+
+  .profiel{
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+  }
+
+
+  .footer-2{
+    margin-top: 100px;
+
+  }
+
+
+  .div{
+    font-size: 40px;
+    margin-left: 430px;
+    margin-top: 20px;
+    color: darkblue;
+  }
+
+  body{
+    background-color: white;
+  }
+
+  .cv{
+    align-items: center;  
+    justify-content: center;  
+    display: flex;
+    border-radius: 10%;
+    margin-top: 50px;
+    margin-left: 600px;
+    font-size: 25px;
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 5px;    
+}
+  
+
+  
+  
