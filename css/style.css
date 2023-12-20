@@ -10,9 +10,9 @@
 header{
     width: 100vw;
     height: 120px;
-    background-color:  grey;
+    background-color:  blue;
     margin-top: -20px;
-    border-radius: 10px;
+
 }
 
 header nav {
@@ -26,7 +26,7 @@ nav{
     align-items: center;
     margin-top: -100px;
     position: relative;
-    left: -50px;
+    left: -30px;
     color: #360568;
 }
 
@@ -40,17 +40,13 @@ nav button {
 
 }
 
-.header{
-    justify-content: row;
-
-}
 
 
   p{
   
    font-size: 50px;
    color: black;
-   margin-left: 460px;
+   margin-left: 200px;
    margin-top: 260px;
    
    
@@ -65,7 +61,7 @@ nav button {
     flex-direction: row;
 }
 footer {
-    background-color:  grey;
+    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,13 +96,14 @@ footer {
 
   .div{
     font-size: 40px;
-    margin-left: 430px;
+    margin-left: 200px;
     margin-top: 20px;
     color: darkblue;
   }
 
   body{
     background-color: white;
+    width: 100vw !important;
   }
 
   .cv{
@@ -115,13 +112,97 @@ footer {
     display: flex;
     border-radius: 10%;
     margin-top: 50px;
-    margin-left: 600px;
+    margin-left: 300px;
     font-size: 25px;
     background-color: darkblue;
     color: whitesmoke;
     padding: 5px;    
 }
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  border-radius: 50%;
+  margin-left: 70%;
+  margin-top: -13%;
   
+}
 
-  
-  
+.footer-3{
+  margin-top: 650px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 600px;
+  justify-content: space-evenly;
+}
+
+.rectangle {
+  height: 400px;
+  width: 500px;
+  background-color: #555;
+  margin-left: 35%;
+  margin-top: 20%;
+  margin-left: 50px;
+}
+
+.number{
+  justify-content: center;
+  display: flex;
+  direction: unset;
+  position: absolute;
+  margin-top: 640px;
+  margin-left: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.email{
+  justify-content: center;
+  display: flex;
+  direction: unset;
+  position: absolute;
+  margin-top: 620px;
+  margin-left: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.about{
+
+  padding: 15%;
+  color: lightblue;
+}
+
+.over-mij{
+  display: flex;
+  font-size: 100px;
+  position: relative;
+  left: 450px;
+  margin-top: -700px;
+  margin-left: 250px;
+}
+
+.number1{
+  justify-content: center;
+  display: flex;
+  direction: unset;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.email1{
+  justify-content: center;
+  display: flex;
+  direction: unset;
+  position: absolute;
+  margin-top: 325px;
+  margin-left: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid #000;
+}
